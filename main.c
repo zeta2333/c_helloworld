@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    //负数
-    short a1 = -10;
-    short a2 = -0x2dc9;  //十六进制
-//正数
-    int b1 = +10;
-    int b2 = +0174;  //八进制
-    int b3 = 22910;
-//负数和正数相加
-    long c = (-9) + (+12);
+    float a = 0.302;
+    float b = 128.101;
+    double c = 123;
+    float d = 112.64E3;
+    double e = 0.7623e-2;
+    float f = 1.23002398;
+    printf("a=%e \nb=%f \nc=%lf \nd=%lE \ne=%lf \nf=%f\n", a, b, c, d, e, f);
     return 0;
 }
 
