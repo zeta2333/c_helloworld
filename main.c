@@ -1,10 +1,7 @@
-#include<stdio.h>
-int main(){
-    int sum = 103;  //æ€»æ•°
-    int count = 7;  //æ•°ç›®
-    double average;  //å¹³å‡æ•°
-    char* str = (char *)sum;
-    average = (double) sum / count;
-    printf("Average is %lf!\n", average);
+#include <stdio.h>
+
+int main() {
+    puts("°Ù¶È");
+    printf("CÓïÑÔ°Ë½øÖÆ\n");
     return 0;
 }
