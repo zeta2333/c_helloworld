@@ -1,13 +1,9 @@
 #include <stdio.h>
-int main()
-{
-    char author[30], lang[30], url[30];
-    gets(author);
-    printf("author: %s\n", author);
-    gets(lang);
-    printf("lang: %s\n", lang);
-    gets(url);
-    printf("url: %s\n", url);
 
+int main() {
+    int n = 0;
+    printf("Input a string:");
+    while (getchar() != '\n') n++;
+    printf("Number of character:%d", n);
     return 0;
 }
