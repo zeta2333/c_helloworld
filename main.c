@@ -1,18 +1,7 @@
 #include <stdio.h>
-//求n的阶乘
-long factorial(int n) {
-    if (n == 0 || n == 1) {
-        return 1;
-    }
-    else {
-        return factorial(n - 1) * n;  // 递归调用
-    }
-}
+#include "my.h"
+
 int main() {
-    int a;
-    printf("Input a number: ");
-    printf("C语言");
-    scanf("%d", &a);
-    printf("Factorial(%d) = %ld\n", a, factorial(a));
-    return 0;
+    int m = 3, n = 7;
+    printf("%d", sum(m, n));
 }
