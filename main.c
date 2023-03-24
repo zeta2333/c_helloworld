@@ -11,6 +11,7 @@ long factorial(int n) {
 int main() {
     int a;
     printf("Input a number: ");
+    printf("C”Ô—‘");
     scanf("%d", &a);
     printf("Factorial(%d) = %ld\n", a, factorial(a));
     return 0;
